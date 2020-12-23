@@ -6,7 +6,7 @@ This is useful for collections of structured data that clearly belong to a paren
 
 If the objects in the array are also related to other documents (pieces or pages), consider using a [relationship](relationship.md) field instead.
 
-## Module definition
+## Module field definition
 
 All fields in a piece or page module use their object key as their database field name (e.g., `contactInfo` below).
 
@@ -69,7 +69,7 @@ Nujucks provides the [`{% for %}` template tag](https://mozilla.github.io/nunjuc
 
 ```django
 <ul>
-{% for contact in contactInfo %}
+{% for contact in data.piece.contactInfo %}
   <li>{{ contact.city }}: {{ contact.email }}</li>
 {% endfor %}
 </ul>

@@ -2,7 +2,7 @@
 
 A `boolean` field is a simple "True/False" choice. The value stored in the database will be either `true` or `false`. To customize the displayed values, use the `label` sub-property of [`choices`](/reference/field-types/field-properties/choices.md). The `value` for each choice must always be "true" or "false".
 
-## Module definition
+## Module field definition
 
 All fields in a piece or page module use their object key as their database field name (e.g., `isSpecial` below).
 
@@ -43,6 +43,7 @@ isSpecial: {
 |required | Boolean | false | If `true`, the field is mandatory |
 |readOnly | Boolean | false | If `true`, prevents the user from editing the field value |
 
+<!-- TODO: Add once the feature is ported to A3 -->
 <!-- |mandatory | String |  | If set, the string is displayed if the user does not set the field to the `true` choice. This can be used for required confirmation fields. | | -->
 
 ## Template usage

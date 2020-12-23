@@ -2,7 +2,7 @@
 
 The `area` field type defines an editable content area that allows users to add a series of widgets. The properties configured in `options` specify the allowed widget types and, in some cases, the configuration for those widgets.
 
-## Module definition
+## Module field definition
 
 All fields in a piece or page module use their object key as their database field name (e.g., `body` below).
 

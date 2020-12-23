@@ -4,7 +4,7 @@ An `attachment` field allows the user to upload a file to the server, or replace
 
 You may also use attachment fields directly as well, however **doing so means that the uploaded file will not be available in the media library or file manager**. It will only be accessible as a property of the piece or page where it is uploaded. This can be appropriate for files that are only relevant for a single piece of content, such as resumés and job applications for a specific person.
 
-## Module definition
+## Module field definition
 
 All fields in a piece or page module use their object key as their database field name (e.g., `resume` below).
 
