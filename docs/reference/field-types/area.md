@@ -8,7 +8,7 @@ All fields in a piece or page module use their object key as their database fiel
 
 ```javascript
 body: {
-  label: 'Body Content',
+  label: 'Body content',
   type: 'area',
   options: {
     widgets: {

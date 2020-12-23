@@ -32,7 +32,7 @@ resume: {
 |-----------|-----------|-----------|-----------|------------|
 |aspectRatio | array | | if set to an array like \[ 2, 1 \], the image must have that aspect ratio and will be autocropped if the user does not manually crop. Only suitable if group is images. |
 |contextual | Boolean | false | If `true`, it will prevent the field from appearing in the editor modal |
-|crop | boolean | false | If true, the user may crop the attachment. Only suitable if group is images. |
+|crop | boolean | false | If `true`, the user may crop the attachment. Only suitable if group is images. |
 |group | String |  | Can be set to "image" or "office" to limit the file types that can be uploaded. Other groups can be configured via the `fileGroups` option of the [apostrophe-attachments](/reference/modules/apostrophe-attachments/README.md) module. |
 |help | String | | Help text for the field that will appear with the field's label |
 |htmlHelp | String | | Help text with support for HTML markup | |

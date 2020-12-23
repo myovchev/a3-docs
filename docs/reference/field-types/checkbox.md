@@ -44,7 +44,6 @@ genres: {
 |htmlHelp | String | | Help text with support for HTML markup |
 |readOnly | Boolean | false | If `true`, prevents the user from editing the field value |
 |required | Boolean | false | If `true`, the field is mandatory |
-|widgetContols | Boolean | false | If true, `checkbox` fields can be edited in line on the page if the field is in a widget |
 
 ## Template usage
 
