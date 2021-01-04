@@ -2,9 +2,9 @@
 
 | Field | Description |
 |-------|-------------|
-|[area](/reference/field-types/area.md) | an editable content area |
+|[area](/reference/field-types/area.md) | Editable content area in which to add various widgets |
 |[array](/reference/field-types/array.md) | A field which can store one or more objects as an array. Has its own schema |
-|[attachment](/reference/field-types/attachment.md) | provides access to upload a file to the server |
+|[attachment](/reference/field-types/attachment.md) | A file input to upload a file to the server |
 |[boolean](/reference/field-types/boolean.md) | provides a "True" or "False" input |
 |[checkboxes](/reference/field-types/checkbox.md) | provides an array of checkboxes |
 |[color](/reference/field-types/color.md) | provides a color picker |
